@@ -1,9 +1,5 @@
 # Load default rc file
-if [ -f "$HOME/.oh-my-zsh/oh-my-zsh.sh" ]; then
-  . "$HOME/.shell/zshrc.d/.oh-my-zsh.rc"
-else
-  . "$HOME/.shell/zshrc.d/.zsh.rc"
-fi
+. "$HOME/.shell/zshrc.d/.zsh.rc"
 
 # Load all files from .shell/zshrc.d directory
 if [ -d "$HOME/.shell/zshrc.d" ]; then
