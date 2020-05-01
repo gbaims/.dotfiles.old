@@ -48,8 +48,13 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'axvr/photon.vim'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 " Colorscheme
 set termguicolors
 colorscheme photon
+
+" Lightline
+set noshowmode
+let g:lightline = { 'colorscheme': 'darcula' }
