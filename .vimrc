@@ -49,6 +49,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'axvr/photon.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 " Colorscheme
