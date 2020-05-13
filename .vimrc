@@ -52,6 +52,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
+" NetRW
+let g:netrw_banner = 0                            " No header in directory mode
+let g:netrw_liststyle = 3                         " Tree style
+
 " Colorscheme
 set termguicolors
 colorscheme photon
