@@ -36,7 +36,7 @@ set ignorecase                                    " Searches are case insensitiv
 set smartcase                                     " ... unless they contain at least one capital letter
 
 " Splits and Tabs
-set splitbelow splitright                         " New windows below and on the right
+set splitbelow                                    " New windows below
 
 
 " Plugins
