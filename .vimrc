@@ -9,6 +9,8 @@ set nobackup                                      " Don't backup
 set nowritebackup                                 " Write files in place
 set noswapfile                                    " Don't use swap files (.swp)
 set autoread                                      " Automatically save changes before switching buffers
+set path+=**                                      " Find files in subdirectories easily
+set wildmenu                                      " Show options in command mode
 
 " History, Cursor, Rulers
 set history=50                                    " Just remember last 50 commands
@@ -49,7 +51,6 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'axvr/photon.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 " NetRW
