@@ -5,6 +5,7 @@
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": false,
   "git.autofetch": true,
   "workbench.colorTheme": "Nord",
   "workbench.editor.closeOnFileDelete": true,
