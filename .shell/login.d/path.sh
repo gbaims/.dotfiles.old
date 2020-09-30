@@ -12,3 +12,8 @@ fi
 if [ -d "/usr/lib/dart/bin" ] ; then
   PATH="/usr/lib/dart/bin:$PATH"
 fi
+
+# set PATH so it includes rust's bin if it exists
+if [ -d "$HOME/.cargo/bin" ] ; then
+  PATH="$HOME/.cargo/bin:$PATH"
+fi
